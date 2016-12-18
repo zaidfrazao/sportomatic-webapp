@@ -9,6 +9,7 @@ import {
 import Core from './scenes/Core';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
+import Login from './scenes/Login';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 // Needed for onTouchTap
@@ -27,7 +28,7 @@ class Main extends React.Component {
   render() {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
-        <Core />
+        <Login />
       </MuiThemeProvider>
     );
   }
