@@ -11,6 +11,7 @@ export default class DefaultAppBar extends React.Component {
     return (
       <AppBar
         title="Dashboard"
+        showMenuIconButton={false}
         iconElementRight={
           <IconMenu
             iconButtonElement={
