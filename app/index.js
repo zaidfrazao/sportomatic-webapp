@@ -28,7 +28,7 @@ class Main extends React.Component {
   render() {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
-        <Core />
+        <Login />
       </MuiThemeProvider>
     );
   }
